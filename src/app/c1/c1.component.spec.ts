@@ -22,4 +22,11 @@ describe('C1Component', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  describe('#func1', () => {
+    it('should...', () => {
+      // expect().toBe();
+    });
+  });
+  
 });

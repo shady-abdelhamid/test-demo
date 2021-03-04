@@ -12,4 +12,8 @@ export class C1Component implements OnInit {
   ngOnInit(): void {
   }
 
+  func1(x:number, y: number): number {
+    return x + y;
+  }
+
 }

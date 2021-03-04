@@ -8,6 +8,7 @@ import { D1Directive } from './d1.directive';
 import { D2Directive } from './d2.directive';
 import { P1Pipe } from './p1.pipe';
 import { P2Pipe } from './p2.pipe';
+import { C3Component } from './c3/c3.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { P2Pipe } from './p2.pipe';
     D1Directive,
     D2Directive,
     P1Pipe,
-    P2Pipe
+    P2Pipe,
+    C3Component
   ],
   imports: [
     BrowserModule
